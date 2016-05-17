@@ -156,7 +156,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ApplicationPaths.cpp" />
+    <ClCompile Include="CodeInjector.cpp" />
+    <ClCompile Include="LibraryInjectionPayload.cpp" />
+    <ClCompile Include="LibraryInjectionPayloadImpl_x64.cpp" />
+    <ClCompile Include="LibraryInjectionPayloadImpl_x86.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Process.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ApplicationPaths.h" />
+    <ClInclude Include="CodeInjector.h" />
+    <ClInclude Include="LibraryInjectionPayload.h" />
+    <ClInclude Include="LibraryInjectionPayloadImpl_x64.h" />
+    <ClInclude Include="LibraryInjectionPayloadImpl_x86.h" />
+    <ClInclude Include="Process.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
