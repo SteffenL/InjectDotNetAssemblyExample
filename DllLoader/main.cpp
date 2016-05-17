@@ -372,7 +372,7 @@ int main()
     PROCESS_INFORMATION pi{ 0 };
 
     do {
-        if (!createSuspendedProcessWithLibrary(pi, getHostExePath(), getInjectedLibraryPath())) {
+        if (!createSuspendedProcessWithLibrary(pi, exePath, libraryPath)) {
             break;
         }
 
